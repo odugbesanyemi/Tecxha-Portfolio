@@ -4,9 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <meta name="description" content="A portfolio project for certificate requirement for the 5 weeks Free Front-end Web development Training at Tecxha IT Solutions">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Portfolio</title>
+</head> 
 <body>
-    <section></section>
+    <div id="hero-section">
+        <header>
+            <div id="header-group">
+                <div class="header-name">
+                    <a href="#">Tecxha Portfolio</a>
+                </div>
+                <div class="header-links">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>My Skills</li>
+                        <li>Portfolio</li>
+                        <li>Contact Me</li>
+                    </ul>
+                </div>
+                <div >
+                    <button class="cta-btn">Hire Me</button>
+                </div>
+            </div>
+        </header>
+        <div id="hero-section-content" class="container">
+            <h1>
+                We Develop Programs that Matter
+            </h1>
+            <p>Tecxha IT Solutions is an organisation established in 2020. Specialized in Building Web and Native applications using world renown technologies. </p>
+            <div class="btn-group">
+                <button style="margin-right:20px;">Hire Us </button>
+                <button class="">Learn more</button>
+            </div>
+
+        </div>
+    </div>
+    <section id="about" class="container">
+        <div id="about-pic" class="img-parent">
+            <img src="assets/web-development-e1444737604137.jpg" alt="mypic">
+        </div>
+        <div id="about-content">
+            <h2>About Me</h2>
+            <p>My name is odugbesan Oluyemi and i am 20 years old and live in the city of Lagos Nigeria. I am a front-end Developer and love to build mobile and web applications that are able to change the world.</p>
+            <p>As a front-end developer, i am knowledgeable on how to build Web programs using HTML (Hypertext Markup Language), CSS (cascading style Sheet) and JS(Javascript) to build rich and powerful programs on the web.</p>
+            <button class="cta-btn">Read more</button>
+        </div>
+    </section>
+    <section id="skills" class="container">
+        <h2 class="center">My Skills</h2>
+        <div id="skill-container">
+            <div class="skill-card">
+                <img src="assets/html-logo.png" alt="">
+                <h3>HTML</h3>
+                <p>HTML, abbrievated as Hyper text Markup Language is the markup language for the Web. it is used to add Web elements to the Browser e.g Headers, Paragraphs and many more</p>
+            </div>
+            <div class="skill-card">
+                <img src="assets/css.png" alt="css_logo">
+                <h3>CSS</h3>
+                <p>CSS, Abbrievated as Cascading Style Sheet, Helps to add styles to the Html markup. Style is used to achieve complex and simple animations and style changes</p>
+            </div>
+            <div class="skill-card">
+                <img src="assets/javascript-logo.png" alt="">
+                <h3>JAVASCRIPT</h3>
+                <p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="container">
+        <h2 class="center">MY Works</h2>
+        <div id="portfolio-container">
+            <div class="portfolio-item">
+                <div class="portfolio-item-image">
+                    <img src="assets/web-development-e1444737604137.jpg" alt="">
+                </div>
+                <div class="portfolio-item-desc">
+                    <h3>Tribute Page To Nelson Mandela</h3>
+                    <p>A web-project Designed to give a brief detail on the greate icon Nelson Mandela, showing His past works and charitable Lifestyle while alive.</p>
+                    <a href="#">Visit Page</a>
+                </div>
+            </div>
+            <div class="portfolio-item">    
+                <div class="portfolio-item-image">
+                    <img src="assets/web-development-e1444737604137.jpg" alt="">
+                </div>
+                <div class="portfolio-item-desc">
+                    <h3>DEG Social Website</h3>
+                    <p>A group web-project Designed by DEG Team for the five week Front-end Web development Training.</p>
+                    <a href="#">Visit Page</a>
+                </div>
+            </div>
+        </div>
+        <a href="#">Show more projects</a>
+    </section>
+    <section id="contact" class="container">
+        <h2 class="center">Contact Me</h2>
+        <div id="contact-container">
+            <form action="" method="GET">
+                <div class="form-group">
+                    <label for="name">Enter Fullname</label>
+                    <input type="text" name="" id="name" placeholder="Fullname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Enter Email Address</label>
+                    <input type="email" name="" id="email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="message">Kindly leave us a message</label>
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="your Message"></textarea>
+                </div>
+                <button type="submit" class="cta-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="social-group">
+            <img src="/assets/" alt="">
+        </div>
+        <div>
+            <p>&copy; Copyright 2022 Odugbesan Oluyemi</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
